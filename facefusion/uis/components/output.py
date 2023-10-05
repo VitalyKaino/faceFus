@@ -50,7 +50,6 @@ def listen() -> None:
 
 
 def start(output_path : str) -> Tuple[Update, Update]:
-	print("lol")
 	facefusion.globals.output_path = normalize_output_path(facefusion.globals.source_path, facefusion.globals.target_path, output_path)
 	limit_resources()
 	conditional_process()
