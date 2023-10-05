@@ -35,9 +35,9 @@ def clear_frame_processor() -> None:
 
 
 def pre_check() -> bool:
-	# if not facefusion.globals.skip_download:
-	# 	download_directory_path = resolve_relative_path('../.assets/models')
-	# 	conditional_download(download_directory_path, [ MODEL_URL ])
+	if not facefusion.globals.skip_download:
+		download_directory_path = resolve_relative_path('../.assets/models')
+		conditional_download(download_directory_path, [ MODEL_URL ])
 	return True
 
 
