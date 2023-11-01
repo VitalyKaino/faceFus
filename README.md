@@ -65,8 +65,8 @@ python run.py [options]
 Disclaimer
 ----------
 
-Godmode, 18+ version
-All manipulations with nudity and porn will remain at your own conscience.
+Godmode, 18+ version.
+All manipulations with nudity and porn, will remain at your own conscience.
 
 
 Documentation
